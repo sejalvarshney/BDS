@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic|Alike);
+body {
+  background: url(http://subtlepatterns.com/patterns/ticks.png);
+}
+
+#wrap {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  margin-top: -150px;
+}
+#wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+@media screen and (max-width: 1300px) {
+  #wrap {
+    top: 0;
+    margin: 0;
+  }
+}
+
+.col_3 {
+  width: 31.33333%;
+  margin: 0 1%;
+  float: left;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #FFF;
+}
+@media screen and (max-width: 1300px) {
+  .col_3 {
+    float: none;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+}
+.col_3 h1 {
+  padding-top: 40px;
+  font-family: Alike,serif;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  color: #FFF;
+  font-size: 2em;
+}
+.col_3 h1#one {
+  background: #333;
+  box-shadow: 0 -5px 0 #262626, 0 5px 0 #cccccc;
+}
+.col_3 h1#two {
+  background: #ae4029;
+  box-shadow: 0 -5px 0 #993824, 0 5px 0 #cccccc;
+  margin-top: -15px;
+}
+.col_3 h1#three {
+  background: skyblue;
+  box-shadow: 0 -5px 0 #0087BD, 0 5px 0 #ADD8E6;
+  margin-top: -15px;
+}
+.col_3 h1#four {
+  background: #149da1;
+  box-shadow: 0 -5px 0 #11878a, 0 5px 0 #cccccc;
+}
+.col_3 img {
+  display: block;
+  margin: -25px auto;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  box-shadow: 0 3px 0 #DDD;
+}
+.col_3 h2 {
+  margin: 44px auto;
+  display: block;
+  width: 70%;
+  text-align: center;
+  font-family: Metrophobic,sans-serif;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.2em;
+}

@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic|Alike);
+@mixin grid($col_number) {
+  $margin: .02;
+  width:percentage((1-($margin*3))/$col_number);
+  margin:0 percentage($margin/2);  
+}
+body { 
+  background:url(http://subtlepatterns.com/patterns/ticks.png);
+}
+#wrap {
+   position:absolute;
+   left:0;
+   width:100%;
+   top:50%;
+   margin-top:-150px;
+  &:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+  }
+  @media screen and (max-width:1300px){
+    top:0;
+    margin:0;
+  }  
+}
+.col_3
+{
+  @include grid(3);
+  float:left;
+  box-sizing:border-box;
+  cursor:pointer;
+  background:#FFF;
+  @media screen and (max-width:1300px){
+    float:none;
+    width:100%;
+    padding-bottom:20px;
+    margin:0;
+  }
+  h1 {
+    padding-top:40px;
+    font-family:Alike,serif;
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom:40px;
+      color:#FFF;
+    font-size:2em;
+  &#one {
+   background:#333;
+   box-shadow: 0 -5px 0 darken(#333,5%),0 5px 0 darken(#FFF,20%);      
+  }
+ &#two {
+   background:#ae4029;
+   box-shadow: 0 -5px 0 darken(#ae4029,5%),0 5px 0 darken(#FFF,20%);
+   margin-top:-15px;
+  }
+ &#three {
+   background:#149da1;
+   box-shadow: 0 -5px 0 darken(#149da1,5%),0 5px 0 darken(#FFF,20%);
+  }    
+  }
+img {
+  display:block;
+  margin:-25px auto;
+  border-radius:50%;
+  border:5px solid #FFF;  
+  box-shadow:0 3px 0 #DDD;
+}
+p {
+  margin:  44px auto;
+  display:block;
+  width:70%;
+  text-align:center;
+  font-family:Metrophobic,sans-serif;
+  color:#333;
+  font-size:1em;
+  line-height:1.2em;
+}
+}
