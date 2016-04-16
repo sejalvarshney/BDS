@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FAQ</title>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+   <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+   <!--external css -->
+    		<link href="css/FAQ_CSS.css" rel="stylesheet" type="text/css" />
+			<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+<!-- jquery & iScroll -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+			<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+			<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ <!--bootstrap-->
+		    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+</head>
+<body class="theme-teal" >
+  	<!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with cover effect-->
+    <div class="panel panel-left panel-cover menu theme-teal" id="menu">
+      <div class="content-block">
+        			       <header class="avatar">
+                            <img src="http://api.randomuser.me/portraits/women/21.jpg" id="img_profile" />
+                        <h2 style="color:white;">NAME</h2>
+                      </header>
+                        <ul id="left_panel_ul" class="theme-teal">
+                        <li tabindex="0"><div class="menu_item">YEAR:</div></li>
+                        <li tabindex="0"><div class="menu_item" id="menu_item_2">COLLEGE:</div></li>
+                        <li tabindex="0"><a href="edit.html" data-transition="slide"  style="text-decoration:none;"><div class="menu_item" id="menu_item_3">EDIT PROFILE</div> </a></li>
+                        <li tabindex="0"><a href="About.html" data-transition="slide" style="text-decoration:none;" ><div class="menu_item">ABOUT</div></a></li>
+                        <li tabindex="0"><a href="team.html" data-transition="slide" style="text-decoration:none;"><div class="menu_item">DEVELOPERS</div></a></li>
+                        <li tabindex="0"><a href="#" data-transition="slide" style="text-decoration:none;"><div class="menu_item">SYLLABUS</div></a></li>
+                      </ul>
+      </div>
+    </div>
+   
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="left"> <a href="#" class="link icon-only open-panel" > <i class="icon icon-bars"></i></a> </div>
+            <div class="center">APP NAME</div>
+            <div class="right"></div>
+            
+          </div>
+        </div>
+    <!-- Page content -->
+ <div data-role="page" id="main_page" class="pre-scrollable">
+            <div role="main" class="ui-content" >
+                              <div class="progress" id="tabs">
+                    <p>FAQ</p>
+                    
+                    <p>COURSES</p>
+                    
+                    <p>PRODUCTS</p>
+
+                </div>
+              
+                <div class="steps">
+
+  <!--.............................................................................first step.........................................................-->           
+                    <div class="step ui-body ui-body-a ui-corner-all">
+                        <div data-role="collapsibleset" data-inset="true" data-shadow="false" style="width:100%;">
+                          <!--list items of FAQ-->
+                          <div data-role="collapsible" data-iconpos="right" data-inset="false">
+                            <h6>Topic 1</h6>
+                            <div data-role="collapsibleset">
+                       						<div data-role="collapsible">
+                                                      <h1>Que1</h1>
+                                                               <p>I'm the expanded content in the nested collapsible block.</p>                                             </div>
+                       						<div data-role="collapsible">
+                                                      <h1>Que2</h1>
+                                                                        <p>I'm the expanded content in the nested collapsible block.</p>
+
+                                            </div>
+                                            <div data-role="collapsible">
+                                                       <h1>Que3</h1>
+                                                        <p>I'm the expanded content in the nested collapsible block.</p>
+                                                                            
+                                            </div>
+                                                  
+                    </div>
+                </div>
+                          <!--...........................-->
+                           <div data-role="collapsible" data-iconpos="right" data-inset="false">
+                            <h2>Topic 2</h2>
+                            <div data-role="collapsibleset">
+                       						<div data-role="collapsible">
+                                                      <h1>Que4</h1>
+                                                           <p>I'm the expanded content in the nested collapsible block.</p>
+                                                            
+                                            </div>
+                       
+					 	
+                       						<div data-role="collapsible">
+                                                      <h1>Que5</h1>
+                                                                        <p>I'm the expanded content in the nested collapsible block.</p>
+                                                             
+                                            </div>
+                       
+                                            <div data-role="collapsible">
+                                                       <h1>Que6</h1>
+                                                        	 <p>I'm the expanded content in the nested collapsible block.</p>
+                                            </div>
+                                               
+                    </div>
+                </div>
+                          <!--...........................-->
+                          
+                        
+                        
+                       
+               </div>
+                    </div>
+                      
+ <!--...............................................................Second Step.........................................................................-->
+                    <div class="step">
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+ <!--.........................................Third Step....................................................................................................-->
+                    
+                    
+                    <div class="step ui-body">
+
+ <!-- image1-->                   
+<a href="#popup_img1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto popup_images" src="http://quartier-latin.education/images/paris.jpg" alt="Paris, France" style="width:100%"></a>
+<div data-role="popup" id="popup_img1" data-overlay-theme="b" data-theme="b" data-corners="false">
+<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="http://quartier-latin.education/images/paris.jpg" style="max-height:512px;" alt="Paris, France"  />
+</div>
+ <!-- image2-->                   
+<a href="#popup_img2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto popup_images" src="http://quartier-latin.education/images/paris.jpg" alt="Paris, France" style="width:100%"></a>
+<div data-role="popup" id="popup_img2" data-overlay-theme="b" data-theme="b" data-corners="false">
+<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="http://quartier-latin.education/images/paris.jpg" style="max-height:512px;" alt="Paris, France"  />
+</div>
+ <!-- image3-->                   
+<a href="#popup_img3" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto popup_images" src="http://quartier-latin.education/images/paris.jpg" alt="Paris, France" style="width:100%"></a>
+<div data-role="popup" id="popup_img3" data-overlay-theme="b" data-theme="b" data-corners="false">
+<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="http://quartier-latin.education/images/paris.jpg" style="max-height:512px;" alt="Paris, France"  />
+</div>
+ <!-- image4-->                   
+<a href="#popup_img4" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto popup_images" src="http://quartier-latin.education/images/paris.jpg" alt="Paris, France" style="width:100%"></a>
+<div data-role="popup" id="popup_img4" data-overlay-theme="b" data-theme="b" data-corners="false">
+<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="http://quartier-latin.education/images/paris.jpg" style="max-height:512px;" alt="Paris, France"  />
+</div>
+
+
+                        </div> <!-- end of step 3-->
+          
+                </div>
+            </div>
+           
+        </div>
+	<!--..............................................Page content gets over here................................................................................-->	
+           </div>
+           </div>
+					<!-- Path to Framework7 Library JS-->
+					<script type="text/javascript" src="js/framework7.min.js"></script>
+                    <!-- Path to your app js-->
+                    <script type="text/javascript" src="js/my-app.js"></script>
+  </main>
+  
+
+</body>
+
+</html>
