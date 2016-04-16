@@ -1,0 +1,106 @@
+
+
+@color1:#009688;
+@icon-url-base: "http://www.entypo.com/images/";
+
+
+
+
+*{font-family: 'Josefin Sans', sans-serif;} 
+
+#tabs{ margin-top:55px; margin-left:0px; vertical-align:middle; text-align:center;}
+
+.ui-page .ui-content {
+    padding:0px;
+}
+
+.ui-content .progress {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    width: 100%;
+	height:150%;
+    background: white;
+    align-items: center;
+    padding: 10px;
+	margin-top: 20px;
+}
+.ui-content .progress * {
+    margin:0px;
+}
+.ui-content .progress p {
+    background-color: transparent;
+    height: 30px;
+    width: 80px;
+	text-align: center;
+}
+
+/* steps */
+ .ui-content .steps {
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.progress .currentStep {
+	border-bottom: 2px solid #009688;
+    font-weight: bold;
+}
+
+#menu
+{background-color: #009688;}
+
+.menu{
+	top:0;
+	left:0;
+	z-index:5;
+	outline:none;
+}
+.avatar{
+		background-color:rgba(255,255,255,0.1);
+		box-shadow:0 0 0 4px rgba(255,255,255,0.3);
+		padding:2em;
+		width:100%;
+		text-align:center;
+}
+#img_profile{
+			width:100px;
+			border-radius:50%;
+			overflow:hidden;
+			border:4px solid #ffea92;
+			box-shadow:0 0 0 4px rgba(255,255,255,0.1);
+		}
+
+#left_panel_ul{
+		list-style:none;
+		padding:0.5em 0;
+		margin:0;
+		
+		li{
+
+			font-size:1.5em;
+			font-weight:regular;
+			cursor:pointer;
+			&:focus{outline:none;}
+			
+			}
+	}
+	
+.popup_images
+{
+	padding-top: 20px;	
+	}
+	
+.menu_item{
+	padding:10px 2px;
+	color: white;
+	transition: all 250ms;
+	&:hover { padding:10px 5px; background-color: rgba(0,0,0,0.1) ;}
+	}
+#menu_item_2 {
+	border-bottom:1px solid white;}
+#menu_item_3{
+	padding-top:30px;}
